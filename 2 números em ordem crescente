@@ -1,0 +1,3 @@
+var numeros = prompt().split(" ")
+var converterNumerosParaInteiros = numeros.sort();
+console.log(converterNumerosParaInteiros[0], converterNumerosParaInteiros[1]);
