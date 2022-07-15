@@ -1,0 +1,3 @@
+var numeros = prompt().split(" ")
+var converterListaStringNumeros = numeros.sort();
+console.log(converterListaStringNumeros[0], converterListaStringNumeros[1], converterListaStringNumeros[2]);
