@@ -1,0 +1,12 @@
+var contador = 0;
+
+for(var i=0; i<5; i++){
+  console.log("Digite um valor:");
+  numeros = prompt();
+
+  if(numeros < 0){
+    contador += 1;
+  }
+}
+
+console.log("Foram digitados " + contador + " numeros negativos");
